@@ -10,7 +10,7 @@
 }
 
 .authors{
-    background-color: #dbe3e7;
+    background-color: #DCF3FF;
 }
 
 .icon-white{
@@ -44,16 +44,20 @@
 }
 
 .overview{
-    background-color: #dbe3e7;
+    background-color: #DCF3FF;
 }
 
 .procedure{
-    background-color: #dbe3e7;
+    background-color: #DCF3FF;
     padding: 1px;
 }
 
 .showcase{
-    background-color: #8fa3ab;
+    background-color: #8ED7FF;
+}
+
+.titleboxes{
+    background-color: #8ED7FF;
 }
 /* --------------------- ID ---------------------*/
 
