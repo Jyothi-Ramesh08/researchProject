@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+        crossorigin="anonymous">defer</script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark nb-background-color">
+    <!-- lg = large breakpoint, navbar-light = make text dark, headerBG = custom bss BG color -->
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="images/PlanariaLogo.png" class="d-inline-block align-text-top w-25">
+            </a>
+
+            <!-- Hamburger Menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible navbar menu with custom hover underline CSS animation -->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <!-- Links to hamburger menu icon -->
+                <ul class="navbar-nav ms-auto">   <!-- ms-auto is margin spacing -->  
+                    <li class="nav-item">
+                        <a href="authors.html" class="nav-link hover-underline-animation nbMenuItem">Authors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="procedure.html" class="nav-link hover-underline-animation nbMenuItem">Procedure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="results.html" class="nav-link hover-underline-animation nbMenuItem">Results</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="showcase text-light p-2 text-center"> <!--Showcase is custom CSS-->
+        <!-- HeaderBG (background) = custom Css BG color, p-2 = padding 2-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 p-0 d-flex align-items-center">
+                    <!-- img-fluid = won't expand image larger than container and will scale down if necessary-->
+                    <img class="img-fluid" src="images/planariaheading2.png" alt="Planaria"> <!--w-50 = 50%-->
+                </div>
+                <div class="col-sm-6 p-0 d-flex align-items-center">
+                    <!-- img-fluid = won't expand image larger than container and will scale down if necessary-->
+                    <div class="containter">
+                        <h1 class="display-4">Effect of E.coli K-12 on Planarian Regeneration</h1>
+                        <h2>Research Practicum 22-23</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="overview text-dark p-2 text-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 p-3">
+                    <!-- pt-3 = padding top -->
+                    <img class="img-fluid" src="images/planariagraph.png" alt="Planaria Regeneration Graph">
+                </div>
+                <div class="col-sm-8 p-3">
+                    <h1 class="ovPadLeft">Background</h1> <!-- ovPagLeft = custom passing left side-->
+                    <p class="lead overview-font ovPadLeft">​
+                        Stem cells are unspecialized cells that can divide and become specialized cells. They are a crucial part of how organisms replenish cells 
+                        that have been lost due to injury. Planaria, a type of flatworm, is useful for studying stem cells because it has multipotent stem cells. 
+                        This means that their stem cells can divide and differentiate into any type of cell. Using these cells, they are able to regenerate huge parts of their bodies. ​
+                        In this study, we investigated the effect that the bacteria E.coli K-12 has on planarian regeneration</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 p-3">
+                    <h1 class="ovPadLeft">Rationale</h1> <!-- ovPagLeft = custom passing left side-->
+                    <p class="lead overview-font ovPadLeft">While there has been a lot of research on how stem cells divide and differentiate, 
+                                                             markedly less research has been done on how environmental factors affect stem cell division and planaria. 
+                                                             There has also been very little research done on how bacteria specifically affects stem cells, as most research has 
+                                                             focused on other substances such as RNA or indoles. Understanding how stem cells perform under different conditions increases
+                                                             knowledge about the mechanics of stem cells. How stem cells are affected by outside factors is especially important to scientists trying 
+                                                             to grow whole organs from stem cells because the stem cells need to be in good enough condition that they can withstand external factors such as bacteria and RNA. 
+                                                             The effects of bacteria can also be compared with the effect of other factors to understand how different factors can impact stem cells. 
+                                                             Finally, this leads to increased knowledge of planarian behavior.</p>
+                </div>
+                <div class="col-sm-4 p-3">
+                    <!-- pt-3 = padding top -->
+                    <img class="img-fluid" src="images/multipleplanaria.png" alt="Multiple Planaria">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 p-3">
+                    <!-- pt-3 = padding top -->
+                    <img class="img-fluid" src="images/stemcellpic.png" alt="Stem Cells">
+                </div>
+                <div class="col-sm-8 p-3">
+                    <h1 class="ovPadLeft">Research Practicum</h1> <!-- ovPagLeft = custom passing left side-->
+                    <p class="lead overview-font ovPadLeft">This project was done in the class Research Practicum at High Technology High School. In this class,
+                                                            sophomores come up with a research question and hypothesis and carry out a research project. In my project,
+                                                            I studied the effect that the bacteria E.coli K-12 had on planarian regneration in terms of number of days the 
+                                                            planaria took to regenerate. I found that while the planaria took a longer amount of time to regenerate, the length
+                                                            they regenerated to was similar.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (recquires Bootstrap icons from CSS)-->
+    <footer class="p-5 footer text-light text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; SE 2023 Bootstrap Demo</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h2 icon-white"></i>
+            </a>
+        </div>
+
+    </footer>
+</body>
+</html>
