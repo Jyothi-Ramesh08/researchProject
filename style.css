@@ -21,6 +21,10 @@
     background-color: #34abeb; /* footer background color */
 }
 
+.list{
+    font-size: 16px;
+}
+
 .howTo{
     font-size: 20px;
 }
@@ -33,6 +37,7 @@
     font-size: 25px;
     margin-left: 10px;
     margin-right: 10px;
+    color: #FFFFFF;
 }
 
 .ovPadRight{
@@ -47,6 +52,10 @@
     background-color: #DCF3FF;
 }
 
+p, li{
+    font-size: 20px !important;
+}
+
 .procedure{
     background-color: #DCF3FF;
     padding: 1px;
@@ -59,6 +68,7 @@
 .titleboxes{
     background-color: #8ED7FF;
 }
+
 /* --------------------- ID ---------------------*/
 
 
@@ -78,7 +88,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #eae6e6;
+    background-color: #ffffff;
     /*transform-origin: bottom right;*/
     transition: transform 0.35s ease-out;
 }
