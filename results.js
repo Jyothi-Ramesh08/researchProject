@@ -86,7 +86,6 @@ async function createChart(){
                     },
                     
                     ticks: {
-                        
                         font: {
                             size: 16
                         }
